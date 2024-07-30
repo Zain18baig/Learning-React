@@ -1,3 +1,5 @@
+import { useRef, useState } from "react";
+import FirstComponent from "./components/FirstComponent";
 //print list  useing array map function
 /*const App = () => { 
   let arr=  ["user 1","user 2","user 1","user 1","user 1",];
@@ -11,8 +13,6 @@
 }
 export default App*/
 
-import { useRef, useState } from "react";
-import FirstComponent from "./components/FirstComponent";
 
 //Conditional rendering
 /*const App = () => {
